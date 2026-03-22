@@ -74,6 +74,11 @@ export default {
     descending: '降序',
     versionMismatch: '浏览器缓存版本与服务端版本不一致，请尝试清除缓存',
     clearCache: '清除缓存',
+    testSend: '测试发送',
+    testSendSuccess: '测试消息发送成功',
+    testSendFailed: '测试消息发送失败',
+    required: '不能为空',
+    exists: '已存在',
   },
   mediaType: {
     movie: '电影',
@@ -431,6 +436,8 @@ export default {
     nameRequired: '请输入名称',
     enabled: '启用',
     config: '配置',
+    title: '标题',
+    content: '内容',
     wechat: {
       name: '企业微信',
       useBotMode: '使用智能机器人',

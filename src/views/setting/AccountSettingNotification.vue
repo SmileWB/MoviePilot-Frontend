@@ -309,6 +309,9 @@ onMounted(() => {
                     <VListItem @click="addNotification('webpush')">
                       <VListItemTitle>{{ t('setting.notification.webPush') }}</VListItemTitle>
                     </VListItem>
+                    <VListItem @click="addNotification('feishu')">
+                      <VListItemTitle><VIcon start icon="mdi-cog-outline" />飞书</VListItemTitle>
+                    </VListItem>
                     <VListItem @click="addNotification('custom')">
                       <VListItemTitle>{{ t('setting.system.custom') }}</VListItemTitle>
                     </VListItem>

@@ -63,7 +63,7 @@ export default defineConfig({
         globPatterns: ['**/*.{js,css,html,ico,png,svg,jpg,jpeg,webp,woff,woff2,ttf,otf,eot}'],
       },
       devOptions: {
-        enabled: true,
+        enabled: false,
         type: 'module',
       },
       manifest: {
